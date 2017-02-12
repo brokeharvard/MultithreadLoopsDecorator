@@ -9,5 +9,5 @@ An easy and efficient decorator to cause a function to split the work of looping
 # How?
 Just put "@async" (without the quotation marks) before the function that you want to multithread.
 
-# To Do List
+# To Do
 - Might be nice to add optimal max_workers parameter to change default of 15 max workers (threads)
