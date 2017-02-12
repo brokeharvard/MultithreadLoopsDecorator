@@ -15,13 +15,13 @@ def async(function):
 
 '''
 
-### WHAT IT DOES ###
+### WHAT? ###
 
-- Takes as its parameter a function that loops its own iterable parameter and returns iterable
-- Makes function split work of looping iterable (and doing whatever else the function does) into up to 15 threads
-- Once all work completed, returns map object 
+- The decorator takes as its parameter: a function that loops its own iterable parameter and returns an iterable.
+- The decorator makes the function split the work of looping its iterable (and doing whatever else the function does) into up to 15 threads.
+- Once all the work is complete, the decorated function returns a map object.
 
-### HOW IT WORKS ###
+### HOW? ###
 
 Just put "@async" (without the quotation marks) before the function that you want to multithread
 
